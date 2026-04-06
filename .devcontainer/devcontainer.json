@@ -1,0 +1,20 @@
+{
+  "name": "ETHOS / CAMB (Python 3.11 + f2py distutils)",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {
+    "python.defaultInterpreterPath": "/usr/local/bin/python",
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "ms-vscode.cpptools"
+      ]
+    }
+  },
+  "remoteUser": "vscode"
+}
